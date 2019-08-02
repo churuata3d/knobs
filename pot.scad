@@ -1,3 +1,11 @@
+// Parametric Pots for Knobs
+// GNU GPL v3
+// Churuata3D www.churuata3d.com
+// Churuata3D <info@churuata3d.com>
+// https://www.instagram.com/churuata3d/
+// https://www.facebook.com/churuata3d
+
+
 //medidas para el potenciometro y tornillo
 
 module pot(pa,pd,smooth){
