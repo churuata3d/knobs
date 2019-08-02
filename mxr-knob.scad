@@ -1,3 +1,10 @@
+// Parametric MXR Style Knob
+// GNU GPL v3
+// Churuata3D www.churuata3d.com
+// Churuata3D <info@churuata3d.com>
+// https://www.instagram.com/churuata3d/
+// https://www.facebook.com/churuata3d
+
 //medidas en mm
 dia1=20.2;
 dia2=15;
@@ -69,9 +76,12 @@ difference(){
     translate([0,0,-0.1])   
     cylinder(h=pa+0.1,d=pd,$fn=smooth);
     
-    //comentar si no se quiere el huevo del tornillo
+    //comentar si no se quiere el hueco del tornillo
     translate([0,0,6.5]) 
     rotate([90,90,360/14])  
     cylinder(h=ta+0.1+10,d=td,$fn=smooth);
+    
+    //
+    pot2(pa,pd,smooth);
 }
 }
